@@ -7,9 +7,10 @@ channels:
   - default
 
 dependencies:
-  - coincbc              # Cbc (Coin-or branch and cut) mixed integer programming solver written in C++.
-  - jupyterlab               # Jupyter Notebook and Architecture.
-  - matplotlib>=3.6            # Publication quality figures.
+  - coincbc                 # Cbc (Coin-or branch and cut) mixed integer programming solver written in C++.
+  - jupyterlab              # Jupyter Notebook and Architecture.
+  - matplotlib>=3.6         # Publication quality figures.
   - pandas>=2               # High-performance, easy-to-use data structures and data analysis tools.
-  - pypsa>=0.31                  # Python for Power System Analysis. Framework.
-  - python>=3.12,<3.13               # Python Programming Language Version 3.7
+  - pypsa>=0.31             # Python for Power System Analysis. Framework.
+  - python>=3.12,<3.13      # Python Programming Language Version 3.7
+  - openpyxl                # openpyxl is a Python library to read/write Excel 2010 xlsx/xlsm/xltx/xltm files.
