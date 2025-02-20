@@ -1,0 +1,16 @@
+name: th_koeln
+
+channels:
+  - conda-forge
+  - bioconda
+  - anaconda
+  - default
+
+dependencies:
+  - coincbc              # Cbc (Coin-or branch and cut) mixed integer programming solver written in C++.
+  - jupyterlab               # Jupyter Notebook and Architecture.
+  - matplotlib>=3.6            # Publication quality figures.
+  - pandas>=2               # High-performance, easy-to-use data structures and data analysis tools.
+  - pypsa>=0.31                  # Python for Power System Analysis. Framework.
+  - python>=3.12,<3.13               # Python Programming Language Version 3.7
+  - tabulate>0.8.5              # Pretty-print tabular data in Python, a library and a command-line utility.
